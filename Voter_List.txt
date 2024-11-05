@@ -1,0 +1,10 @@
+
+1		Sashi		19901212		Parvat		*****
+
+2		Ramesh		199813		Kathmandu		*****
+
+3		Tika		200075		Pokhara		*****
+
+4		HariPrasad		200189		Lalitpur		*****
+
+5		alson		2050115		sk		abc
