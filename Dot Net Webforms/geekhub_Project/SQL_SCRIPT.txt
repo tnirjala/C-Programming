@@ -1,0 +1,249 @@
+USE [master]
+GO
+/****** Object:  Database [greekhubDB_project]    Script Date: 8/6/2024 3:42:49 PM ******/
+CREATE DATABASE [greekhubDB_project]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'greekhubDB_project', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\greekhubDB_project.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'greekhubDB_project_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\greekhubDB_project_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [greekhubDB_project] SET COMPATIBILITY_LEVEL = 150
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [greekhubDB_project].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [greekhubDB_project] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET AUTO_CLOSE ON 
+GO
+ALTER DATABASE [greekhubDB_project] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [greekhubDB_project] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [greekhubDB_project] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [greekhubDB_project] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [greekhubDB_project] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [greekhubDB_project] SET  MULTI_USER 
+GO
+ALTER DATABASE [greekhubDB_project] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [greekhubDB_project] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [greekhubDB_project] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [greekhubDB_project] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [greekhubDB_project] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [greekhubDB_project] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [greekhubDB_project] SET QUERY_STORE = OFF
+GO
+USE [greekhubDB_project]
+GO
+/****** Object:  Table [dbo].[adminloginDB]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[adminloginDB](
+	[username] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NULL,
+	[full_name] [nvarchar](50) NULL,
+ CONSTRAINT [PK_adminloginDB] PRIMARY KEY CLUSTERED 
+(
+	[username] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Comments]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Comments](
+	[CommentID] [int] IDENTITY(1,1) NOT NULL,
+	[DiscussionID] [int] NULL,
+	[CommentText] [nvarchar](max) NOT NULL,
+	[CommentedDate] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[CommentID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ContactMessages]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ContactMessages](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](100) NOT NULL,
+	[Email] [nvarchar](100) NOT NULL,
+	[Message] [nvarchar](max) NOT NULL,
+	[SubmittedAt] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Courses]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Courses](
+	[CourseID] [int] IDENTITY(1,1) NOT NULL,
+	[CourseName] [nvarchar](255) NOT NULL,
+	[CourseDescription] [nvarchar](1000) NOT NULL,
+	[TutorialName] [nvarchar](255) NOT NULL,
+	[Level] [nvarchar](50) NOT NULL,
+	[Content] [nvarchar](max) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[CourseID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Discussions]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Discussions](
+	[DiscussionID] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](255) NOT NULL,
+	[Description] [nvarchar](max) NOT NULL,
+	[CreatedDate] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[DiscussionID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[feedbacktable]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[feedbacktable](
+	[full_name] [nvarchar](50) NOT NULL,
+	[email] [nvarchar](50) NULL,
+	[feedback] [nvarchar](200) NULL,
+ CONSTRAINT [PK_feedbacktable] PRIMARY KEY CLUSTERED 
+(
+	[full_name] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[LabAnswer]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[LabAnswer](
+	[AnswerID] [int] IDENTITY(1,1) NOT NULL,
+	[LabID] [int] NULL,
+	[UserAnswer] [nvarchar](max) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[AnswerID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Labs]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Labs](
+	[LabID] [int] IDENTITY(1,1) NOT NULL,
+	[LabName] [nvarchar](100) NOT NULL,
+	[LabObjective] [nvarchar](255) NOT NULL,
+	[LabQuestion] [nvarchar](255) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LabID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[usersignup]    Script Date: 8/6/2024 3:42:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[usersignup](
+	[full_name] [nvarchar](50) NULL,
+	[dob] [nvarchar](50) NULL,
+	[contact_no] [nvarchar](50) NULL,
+	[email] [nvarchar](50) NULL,
+	[provinces] [nvarchar](50) NULL,
+	[city] [nvarchar](50) NULL,
+	[pincode] [nvarchar](50) NULL,
+	[full_address] [nvarchar](max) NULL,
+	[user_id] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NULL,
+	[account_status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_usersignup] PRIMARY KEY CLUSTERED 
+(
+	[user_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Comments] ADD  DEFAULT (getdate()) FOR [CommentedDate]
+GO
+ALTER TABLE [dbo].[ContactMessages] ADD  DEFAULT (getdate()) FOR [SubmittedAt]
+GO
+ALTER TABLE [dbo].[Discussions] ADD  DEFAULT (getdate()) FOR [CreatedDate]
+GO
+ALTER TABLE [dbo].[Comments]  WITH CHECK ADD FOREIGN KEY([DiscussionID])
+REFERENCES [dbo].[Discussions] ([DiscussionID])
+GO
+ALTER TABLE [dbo].[LabAnswer]  WITH CHECK ADD FOREIGN KEY([LabID])
+REFERENCES [dbo].[Labs] ([LabID])
+GO
+USE [master]
+GO
+ALTER DATABASE [greekhubDB_project] SET  READ_WRITE 
+GO

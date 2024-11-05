@@ -1,0 +1,15 @@
+
+Ramesh,MoMo,100,18000,Online Payment,2024-02-16
+Niruta,MoMo,10,1800,Card Payment,2024-02-16
+Khusbhu,MoMo,4,720,Cash,2024-02-16
+Nirjala,MoMo,2,360,Online Payment,2024-02-16
+Harish,MoMo,2,360,Card Payment,2024-02-16
+Rakesh,Veg Biryani,3,870,Online Payment,2024-02-17
+Raj,Thenduk,3,600,Card Payment,2024-02-17
+Rinzin,Mint Pizza,10,5000,Online Payment,2024-02-17
+Ritik,Veg Biryani,10,2900,Cash,2024-02-18
+Urmila,Samosa,8,200,Online Payment,2024-02-19
+goma,Chowmin,2,240,Online Payment,2024-02-20
+Sanjana,Chicken Pizza,3,1170,Online Payment,2024-02-21
+Swodes,Thenduk,1,200,Online Payment,2024-02-23
+Ram,Samosa,2,50,Cash,2024-02-23

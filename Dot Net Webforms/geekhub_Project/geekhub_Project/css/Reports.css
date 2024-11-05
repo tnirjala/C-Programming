@@ -1,0 +1,70 @@
+﻿/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the entire content */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    /* Title styling */
+    .card h2 {
+        margin-top: 0;
+        color: #24A13B;
+        text-align: center;
+    }
+
+    /* Canvas inside the card */
+    .card canvas {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    /* GridView styling */
+    .card .gridview-container {
+        overflow-x: auto;
+    }
+
+        .card .gridview-container table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .card .gridview-container th,
+        .card .gridview-container td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card .gridview-container th {
+            background-color: #24A13B;
+            color: white;
+        }
+
+        .card .gridview-container tr:hover {
+            background-color: #f1f1f1;
+        }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}

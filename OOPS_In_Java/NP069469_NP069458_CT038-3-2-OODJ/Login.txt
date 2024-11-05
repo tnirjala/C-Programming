@@ -1,0 +1,6 @@
+1,Nimo,12345,98765432,nimo@gmail.com,Manager
+5,Nimo,12345,98765432,nimo@gmail.com,Manager
+2,Nirjala,12345,9876543,harry@gmail.com,Manager
+3,Harish,12345,98765432,harry@gmail.com,Customer
+6,Arbin,12345,98765432,arbin@gmail.com,Manager
+7,Swodes,12345,98765432,swodeh@gmail.com,Customer

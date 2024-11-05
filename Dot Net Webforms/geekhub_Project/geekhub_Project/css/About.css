@@ -1,0 +1,93 @@
+﻿/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFFF; /* White background */
+    color: #24A13B; /* Green text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container for About Section */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Content Section */
+.about-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+    .about-content h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #24A13B;
+        border-bottom: 2px solid #24A13B;
+        display: inline-block;
+    }
+
+    .about-content p {
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #333; /* Slightly darker text for readability */
+    }
+
+    .about-content ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        font-size: 18px;
+        color: #333; /* Slightly darker text for readability */
+    }
+
+        .about-content ul li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+            .about-content ul li::before {
+                content: '';
+                position: absolute;
+                left: -20px;
+                top: 8px;
+                width: 8px;
+                height: 8px;
+                background-color: #24A13B;
+                border-radius: 50%;
+            }
+
+/* Image Section */
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+    .about-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-content {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header_Footer.master.cs" Inherits="geekhub_Project.Header_Footer" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <!--bootstrap css file-->
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--datatable css file-->
+    <link href="Datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
+    <!--fontawesome css file-->
+    <link href="Fontawesome/css/all.css" rel="stylesheet" />
+    <!--required js files-->
+    <script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Css link for header and footer-->
+    <link href="css/mastestylesheet.css" rel="stylesheet" />
+    <!--Datatables js links-->
+    <script src="Datatables/js/dataTables.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .navbar-toggler {
+            color: white;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Navbar Section -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.aspx">
+                    <img src="imgs/logo.jpg" alt="Logo" />
+                    GeekHub
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarSupportContent" aria-controls="navbarSupportContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Adjusted to ensure proper right alignment -->
+                    <ul class="navbar-nav ml-auto"> <!-- Main navigation items aligned to the right -->
+                        <li class="nav-item active">
+                            <asp:LinkButton CausesValidation="false" class="nav-item" ID="LinkButton5" runat="server" OnClick="Home_Click" Style="text-decoration:none;color:white;">Home</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="About.aspx">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Courses.aspx">Courses</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="usersubmitLab.aspx">Labs</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Contact.aspx">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto"> <!-- Additional items also aligned to the right -->
+
+                            
+
+                        <li class="nav-item active">
+                            <asp:LinkButton CausesValidation="false" class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Login</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton CausesValidation="false" class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Sign Up</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton CausesValidation="false" class="nav-link" ID="LinkButton3" runat="server" Visible="False" OnClick="LinkButton3_Click">Logout</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton CausesValidation="false" class="nav-link" ID="LinkButton7" runat="server" Visible="False" OnClick="LinkButton7_Click">Hello User</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Admin Link</h5>
+                        <ul class="list-unstyled">
+                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Admin Login</asp:LinkButton>
+                              <%--<asp:LinkButton class="nav-link" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">User Management</asp:LinkButton>--%> 
+                             <%--<asp:LinkButton class="nav-link" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="False">Feedback Management</asp:LinkButton>--%>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Who Are we?</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.aspx" class="footerlinks">Home</a></li>
+                            <li><a href="About.aspx" class="footerlinks">About</a></li>
+                            <li><a href="Contact.aspx" class="footerlinks">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Services</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="Courses.aspx" class="footerlinks">Courses</a></li>
+                            <li><a href="usersubmitLab.aspx" class="footerlinks">Virtual Labs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Newsletter</h5>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <button type="submit" class="btn btn-warning">Subscribe</button>
+                        </form>
+                        <div class="media-icons mt-3">
+                            <a href="#" class="media-icon"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="media-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="media-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="media-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="media-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="media-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <p class="mt-3">
+                            <i class="fa fa-mobile-alt"></i> +91 78924 74250<br>
+                            <a href="#" class="footerlinks">harish052ayer@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col text-center">
+                        <p>&copy; 2024 greekhubgroups.com</p>
+                        <div class="d-inline-block">
+    
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

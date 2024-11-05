@@ -1,0 +1,207 @@
+<DOCTYPE html>
+    <html lanf="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Dharamshala" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Shree Pashupati Gaushala Dharamshala</title>
+    </head>
+
+    <body>
+        <!--This is all of the navigation bar only-->
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="spgdLogo.png">
+
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle">&#9776;</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a>
+                        <ul>
+                            <li><a href="aboutus.html">About Dharamsala</a></li>
+                            <li><a href="location.html">Location</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Activities</a>
+                        <ul>
+                            <li><a href="rooms.html">Accommodation</a></li>
+                            <li><a href="food.html">Fooding</a></li>
+                            <li><a href="cowprotection.html">Cows Protection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="HealthCare.html">Health Care</a>
+                    </li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="edit gall.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <section class="introduction"> <!--This is for the title section-->
+            <div class="name">
+                <h2>Shree Pashupati Gausala Dharamasala</h2>
+                <div class="line"></div>
+                <h1>श्री पशुपति गौशाला धर्मशाला
+                </h1>
+            </div>
+        </section>
+        <section id="background"> <!--THis is the about us section-->
+            <div class="bg-heading">
+                <h1>About Us</h1>
+                <div class="line"></div>
+            </div>
+            <div class="paragraph">
+                <div class="paragraph2">
+                    <p> Founded in 1997 (1939 A.D.) by the esteemed Marwari Community of Nepal,
+                        Shree Pashupati Gaushala Dharamshala has remained persistent in its commitment to Gau Sewa (cow
+                        service) and humanitarian initiatives.
+                        We offer affordable or even free lodging for those seeking temporary accommodation during their
+                        spiritual visits to nearby temples.</p>
+                    <button><a href="aboutus.html">Learn More</a></button>
+                </div>
+                <div class="bg-image">
+                    <img src="dharmashala.jpg">
+                </div>
+            </div>
+        </section>
+        <!--This is for the activities section-->
+        <section id="facilities">
+            <div class="bg-heading">
+                <h1>Activities</h1>
+                <div class="line"></div>
+                <div class="main-area">
+                    <div class="first-box">
+                        <div class="img-area"></div>
+                        <div class="img-text">
+                            <span class="header-text"><strong>Rooms</strong></span>
+                            <p>The rooms are affordable, making it a great option for budget travelers.
+                            </p>
+                            <button><a class="learnmore" href="rooms.html">Learn More</a></button>
+                        </div>
+                    </div>
+                    <div class="first-box">
+                        <div class="img-area"></div>
+                        <div class="img-text">
+                            <span class="header-text"><strong>Fooding</strong></span>
+                            <p>We serves delicious and affordable vegetarian dishes,at reasonable price.
+                            </p>
+                            <button><a class="learnmore" href="food.html">Learn More</a></button>
+                        </div>
+                    </div>
+                    <div class="first-box">
+                        <div class="img-area"></div>
+                        <div class="img-text">
+                            <span class="header-text"><strong>Cow Protection</strong></span>
+                            <p>Sheltering, caring, preserving cows, daily check-ups and rescues.
+                            </p>
+                            <button><a class="learnmore" href="cowprotection.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--For the activities section-->
+        <section id="activities">
+            <div class="bg-heading">
+                <h1>Health Care</h1>
+                <div class="line"></div>
+            </div>
+            <div class="paragraph">
+                <div class="paragraph2">
+                    <p>
+                        We provide free healthcare services in Dharamsala, including artificial limb plantation,
+                        hemodialysis, health check-ups, homeopathy and allopathy treatments, ambulance services, and
+                        funeral vehicle arrangements. Our commitment to exceptional healthcare is driven by our belief
+                        that service is the people's religion.</p>
+                    <button><a href="HealthCare.html">Learn More</a></button>
+                </div>
+                <div class="bg-image2">
+                    <div class="slider-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="chatbot">
+            <div class="chatbot-icon" id="chatbot-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+            <div class="chatbot-container" id="chatbot-container">
+                <div class="chat-content">
+                    <h5>Chat with Us</h5>
+                    <p id="chat-message">Hello! How can we assist you today?</p>
+                    <div class="options" id="options">
+                        <button id="location-btn">Location</button>
+                        <button id="info-btn">General Info</button>
+                    </div>
+                </div>
+                <div class="expanded-content" id="expanded-content">
+                    <!-- Expanded content goes here -->
+                    <p id="location-info" class="hidden">Our location is Gaushala, Kathmandu.</p>
+                    <p id="general-info" class="hidden">We provide healthcare services, free food, rooms, and more.</p>
+                    <p id="thank-you" class="hidden">Thank you for connecting!</p>
+                </div>
+            </div>
+        </section>
+        <script src="chatbot.js"></script>
+        
+        <!--Footer 1-->
+        <footer>
+            <div id="foot1">
+                <div class="container">
+                    <div class="container-content">
+                        <h5>Additional Information</h5>
+                        <ul>
+                            <li><a href="location.html">Site Map</a></li>
+                            <li><a href="rules and regu.html">Rules &amp; Guidelines</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-content">
+                        <h5>Contact Us</h5>
+                        <!-- Location Icon -->
+                        <p><i class="fas fa-map-marker-alt"></i> Gaushala, Kathmandu, Nepal</p>
+                        <!-- Phone Icon -->
+                        <p><i class="fas fa-phone"></i> +977 9801071211</p>
+                    </div>
+                    <!-- Supported by Marwadi Community -->
+                    <div class="container-content">
+                        <p class="supported-by">
+                        <h5>Supported by Marwari Samiti</h5>
+
+                        </p>
+                        <h5>Stay Connected</h5>
+                        <ul class="social-icons">
+                            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+            <!-- Footer 2 -->
+            <div id="foot2">
+                <div class="container">
+                    <div class="footer-content">
+                        <p>&copy; 2023 Shree Pashupati Gaushala Dharamasala. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+    </html>

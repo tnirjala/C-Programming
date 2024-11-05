@@ -1,0 +1,9 @@
+1, MoMo,150
+2,Chowmin,120
+3,Samosa,25
+4,Pakauda,20
+5,Chicken Pizza,390
+6,Veg Biryani,290
+7,Thenduk,200
+8,Mint Pizza,500
+9,Burger,120

@@ -1,0 +1,100 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-custom th, .table-custom td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table-custom th {
+    background-color: #f8f9fa;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-insert {
+    background-color: #24A13B;
+    color: #ffffff;
+}
+
+.btn-update {
+    background-color: #24A13B;
+    color: #ffffff;
+}
+
+.btn-delete {
+    background-color: #24A13B;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    background-color: #35e278;
+    color: #000000;
+}
+
+.textbox {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+    .textbox:focus {
+        border-color: #24A13B;
+        outline: none;
+        box-shadow: 0 0 5px rgba(36, 161, 59, 0.3);
+    }
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 250px;
+    border-radius: 8px;
+}
+
+    .card:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+.card-icon {
+    font-size: 4rem;
+    color: #24A13B;
+}
+
+.card-body {
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-custom {
+    background-color: #d4edda;
+    color: #333;
+}
+
+.card-title {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}

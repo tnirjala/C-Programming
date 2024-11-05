@@ -1,0 +1,584 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\usersignup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\usersignup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\usersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\usersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\courses.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\courses.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|c:\\users\\legion\\ritik\\desktop\\assignments\\assignment_sem4_ritik\\wapp\\geekhub_project\\geekhub_project\\geekhub_project\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\header_footer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\header_footer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|c:\\users\\legion\\ritik\\desktop\\assignments\\assignment_sem4_ritik\\wapp\\geekhub_project\\geekhub_project\\geekhub_project\\header_footer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\header_footer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\discussions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\discussions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\managelectures.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\managelectures.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\managevirtual.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\managevirtual.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\userlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\userlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\adminusermanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\adminusermanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\admin_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\admin_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\css\\discussions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\css\\discussions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\usersubmitlab.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\usersubmitlab.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\css\\reports.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\css\\reports.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\viewfeedbackadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\viewfeedbackadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\viewfeedbackadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\viewfeedbackadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\adminviewassessment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\adminviewassessment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\admin_dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\admin_dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\discussions.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\discussions.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_project\\css\\virtuallab.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D26B29C-B5D9-438E-909D-05C56A185500}|geekhub_Project\\geekhub_Project.csproj|solutionrelative:geekhub_project\\css\\virtuallab.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Courses.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Courses.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\Courses.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Courses.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\Courses.aspx.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:15:32.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Header_Footer.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Header_Footer.Master.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\Header_Footer.Master.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Header_Footer.Master.cs",
+              "RelativeToolTip": "geekhub_Project\\Header_Footer.Master.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwHkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T06:44:59.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "adminlogin.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminlogin.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\adminlogin.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminlogin.aspx",
+              "RelativeToolTip": "geekhub_Project\\adminlogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T03:42:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usersignup.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersignup.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\usersignup.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersignup.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\usersignup.aspx.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAnwHIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:13:21.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "usersignup.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersignup.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\usersignup.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersignup.aspx",
+              "RelativeToolTip": "geekhub_Project\\usersignup.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T02:08:19.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Bootstrap\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\Bootstrap\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Bootstrap\\css\\bootstrap.min.css",
+              "RelativeToolTip": "geekhub_Project\\Bootstrap\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T03:50:13.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\index.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\index.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\index.aspx",
+              "RelativeToolTip": "geekhub_Project\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T12:51:32.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Contact.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\Contact.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Contact.aspx",
+              "RelativeToolTip": "geekhub_Project\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T03:49:53.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\About.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\About.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\About.aspx",
+              "RelativeToolTip": "geekhub_Project\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T03:22:05.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "adminlogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminlogin.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\adminlogin.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminlogin.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\adminlogin.aspx.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:35:17.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Header_Footer.Master",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Header_Footer.Master",
+              "RelativeDocumentMoniker": "geekhub_Project\\Header_Footer.Master",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Header_Footer.Master",
+              "RelativeToolTip": "geekhub_Project\\Header_Footer.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T12:26:35.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "userlogin.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\userlogin.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\userlogin.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\userlogin.aspx",
+              "RelativeToolTip": "geekhub_Project\\userlogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T13:32:21.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reports.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Reports.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\Reports.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Reports.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\Reports.aspx.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:09:02.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Discussions.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Discussions.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\Discussions.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Discussions.aspx",
+              "RelativeToolTip": "geekhub_Project\\Discussions.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T10:00:35.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Reports.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Reports.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\Reports.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Reports.aspx",
+              "RelativeToolTip": "geekhub_Project\\Reports.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T14:08:43.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "manageLectures.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\manageLectures.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\manageLectures.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\manageLectures.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\manageLectures.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:52:36.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "manageVirtual.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\manageVirtual.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\manageVirtual.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\manageVirtual.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\manageVirtual.aspx.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA1wA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:52:55.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "userlogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\userlogin.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\userlogin.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\userlogin.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\userlogin.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:12:16.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VirtualLab.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\VirtualLab.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\css\\VirtualLab.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\VirtualLab.css",
+              "RelativeToolTip": "geekhub_Project\\css\\VirtualLab.css",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T04:51:34.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "adminusermanagement.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminusermanagement.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\adminusermanagement.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminusermanagement.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\adminusermanagement.aspx.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAYwIcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:50:14.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin_Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Admin_Dashboard.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\Admin_Dashboard.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Admin_Dashboard.aspx",
+              "RelativeToolTip": "geekhub_Project\\Admin_Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T15:37:30.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\About.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\css\\About.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\About.css",
+              "RelativeToolTip": "geekhub_Project\\css\\About.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T03:24:56.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Discussions.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Discussions.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\css\\Discussions.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Discussions.css",
+              "RelativeToolTip": "geekhub_Project\\css\\Discussions.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T11:45:57.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Contact.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Contact.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\css\\Contact.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Contact.css",
+              "RelativeToolTip": "geekhub_Project\\css\\Contact.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T04:06:06.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "usersubmitLab.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersubmitLab.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\usersubmitLab.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\usersubmitLab.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\usersubmitLab.aspx.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:57:14.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Reports.css",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Reports.css",
+              "RelativeDocumentMoniker": "geekhub_Project\\css\\Reports.css",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\css\\Reports.css",
+              "RelativeToolTip": "geekhub_Project\\css\\Reports.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T14:11:09.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "viewfeedbackadmin.aspx",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\viewfeedbackadmin.aspx",
+              "RelativeDocumentMoniker": "geekhub_Project\\viewfeedbackadmin.aspx",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\viewfeedbackadmin.aspx",
+              "RelativeToolTip": "geekhub_Project\\viewfeedbackadmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T15:19:36.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "viewfeedbackadmin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\viewfeedbackadmin.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\viewfeedbackadmin.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\viewfeedbackadmin.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\viewfeedbackadmin.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:21:06.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Web.config",
+              "RelativeDocumentMoniker": "geekhub_Project\\Web.config",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Web.config",
+              "RelativeToolTip": "geekhub_Project\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-05T12:57:05.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "adminviewAssessment.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminviewAssessment.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\adminviewAssessment.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\adminviewAssessment.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\adminviewAssessment.aspx.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:51:09.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Admin_Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Admin_Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\Admin_Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Admin_Dashboard.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\Admin_Dashboard.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:45:10.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\index.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\index.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\index.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\index.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T12:51:54.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Discussions.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Discussions.aspx.cs",
+              "RelativeDocumentMoniker": "geekhub_Project\\Discussions.aspx.cs",
+              "ToolTip": "C:\\Users\\Legion\\Ritik\\Desktop\\Assignments\\Assignment_sem4_RITIK\\WAPP\\geekhub_Project\\geekhub_Project\\geekhub_Project\\Discussions.aspx.cs",
+              "RelativeToolTip": "geekhub_Project\\Discussions.aspx.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAhwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:01:06.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

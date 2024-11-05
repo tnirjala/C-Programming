@@ -1,0 +1,171 @@
+﻿/* Body and HTML heights */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content should take the remaining space */
+#form1 {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content placeholder */
+div[role=main] {
+    flex: 1;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #000000; /* Black color for the navbar */
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-left: 20px; /* Adjust the value as needed */
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand img {
+    height: 60px; /* Adjust the height as needed */
+    width: auto;
+}
+
+.center-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+    .navbar-nav .nav-item {
+        margin: 0 15px; /* Adjust the margin to add more space */
+    }
+
+/* Ensure that the navbar items align correctly */
+.navbar-nav {
+    flex-direction: row; /* Ensure items are aligned in a row */
+}
+
+    /* Force alignment to the right for the first list */
+    .navbar-nav.ml-auto {
+        margin-left: auto;
+    }
+
+    /* Ensure that no other styles interfere */
+    .navbar-nav > .nav-item {
+        margin: 0; /* Remove any margin that might affect alignment */
+    }
+
+/* Toggler button styles */
+/*.navbar-toggler {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+    */
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #000000; /* Black color for the footer */
+    color: white;
+    padding: 20px 0; /* Reduced padding */
+    width: 100%;
+    bottom: 0;
+}
+
+    /* Footer Links */
+    .footer .footerlinks {
+        color: #24A13B; /* Green color for the footer links */
+        text-decoration: none;
+    }
+
+        .footer .footerlinks:hover {
+            color: #FFFFFF; /* White color for hover effect */
+            text-decoration: underline;
+        }
+
+    /* Footer Headings */
+    .footer h5 {
+        color: #24A13B; /* Green color for the footer headings */
+        text-decoration: underline; /* Underline heading */
+        padding-bottom: 5px; /* Space below heading */
+    }
+
+    /* Footer Subscribe Button */
+    .footer .btn-warning {
+        background-color: #24A13B; /* Green color for the subscribe button */
+        border: none;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth zoom-out effect and color transition */
+    }
+
+        .footer .btn-warning:hover {
+            transform: scale(1.05); /* Zoom-out effect */
+            background-color: #1d8a33; /* Slightly darker green on hover */
+        }
+
+    /* Footer Form and Media Icons */
+    .footer .form-group {
+        margin-bottom: 15px; /* Add margin to space out the form elements */
+    }
+
+    .footer .media-icons {
+        display: flex;
+        justify-content: center; /* Center the media icons */
+        margin-bottom: 15px; /* Space above phone number and email */
+    }
+
+    .footer .media-icon {
+        display: inline-block;
+        width: 60px; /* Adjust width */
+        height: 35px; /* Adjust height */
+        text-align: center;
+        line-height: 35px;
+        border-radius: 5px; /* Rounded corners */
+        background-color: #24A13B; /* Green background color */
+        color: #000000; /* Black color for icons */
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth zoom-out effect and background color transition */
+        text-decoration: none;
+        font-size: 24px; /* Larger icon size */
+        margin: 0 5px; /* Space between icons */
+    }
+
+        .footer .media-icon:hover {
+            transform: scale(1.1); /* Zoom-out effect */
+            background-color: #000000; /* Black background color on hover */
+            color: #24A13B; /* Green color for icons on hover */
+        }
+
+    /* Footer List Items */
+    .footer .list-unstyled li {
+        margin-bottom: 10px; /* Add gap between items */
+    }
+
+    .footer .list-unstyled a {
+        color: #24A13B; /* Green color for links */
+        text-decoration: none;
+    }
+
+        .footer .list-unstyled a:hover {
+            color: #FFFFFF; /* White color for hover effect */
+            text-decoration: underline;
+        }
