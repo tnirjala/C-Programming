@@ -1,7 +1,7 @@
 ----------------------------------------------------
 College Projects Repository
 ----------------------------------------------------
-Welcome to my College Projects repository! This repository showcases the projects I developed during each semester, covering various programming languages, frameworks, and concepts. Each project reflects the skills and knowledge I gained throughout my academic journey.
+**Welcome to my College Projects repository! This repository showcases the projects I developed during each semester, covering various programming languages, frameworks, and concepts. Each project reflects the skills and knowledge I gained throughout my academic journey.**
 ----------------------------------------------------------------------------------------------------------------------
 Semester 1 - Voting System in C
 In the first semester, we created a Voting System using C programming. This project allows users to cast votes for candidates, and the candidate with the maximum votes is declared the winner. We used foundational C concepts such as:
